@@ -1,0 +1,39 @@
+.hero__inner{
+    width: 100%;
+}
+.hero__text {
+    max-width: 550px;
+    width: 100%;
+}
+.hero__services{
+    padding: 10px 70px 10px 50px;
+    background-color: #fff;
+    position: absolute;
+    font-size: 16px;
+    line-height: 26px;
+
+height: 26px;
+left: 24.53%;
+right: 33.49%;
+top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+
+
+}
+.hero__services::before{
+    content: "+";
+    position:absolute;
+    right: 10px;
+    top: 14px;
+    color:#aaa;
+
+
+}
+.hero__img{
+   width: 419;
+   height: 590;
+   object-fit: cover; 
+}
